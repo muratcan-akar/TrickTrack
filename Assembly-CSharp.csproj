@@ -64,9 +64,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\AfterFinish.cs" />
     <Compile Include="Assets\Scripts\Camera.cs" />
+    <Compile Include="Assets\Scripts\ControlPoint.cs" />
+    <Compile Include="Assets\Scripts\Enemy.cs" />
+    <Compile Include="Assets\Scripts\EnemyTarget.cs" />
+    <Compile Include="Assets\Scripts\FinishLineTarget.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
-    <Compile Include="Assets\Scripts\Shoot.cs" />
+    <Compile Include="Assets\Scripts\PlayerCollider.cs" />
+    <Compile Include="Assets\Scripts\Target.cs" />
     <None Include="Assets\FlatKit\Shaders\GradientSkybox\GradientSkybox.shader" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/murat/Documents/GitHub/TrickTrack/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
